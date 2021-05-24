@@ -7,7 +7,14 @@ RAPID training assignment for T4.
 <li>Sorting Techniques</li>
 	<ul>
 	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques/Bubble-Sort">Bubble Sort</a></li>
-	<li>[Merge Sort](https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques/Merge-Sort)</li>
+	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques/Merge-Sort">Merge Sort</a></li>
+	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques/Quick-Sort">Quick Sort</a></li>
+	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques/Selection-Sort">Selection Sort</a></li>
+	</ul>
+<li>Searching Techniques</li>
 	<ul>
+	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Linear-Search">Linear Search</a></li>
+	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Binary-Search">Binary Search</a></li>
+	</ul>
 </ul>
 
