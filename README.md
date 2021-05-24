@@ -6,7 +6,7 @@
 <ul>
 <li>Algorithms and Data Structures</li>
 	<ul>
-		<li>Sorting Techniques</li>
-		<li>Searching Techniques</li>
+		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques">Sorting Techniques</a></li>
+		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques">Searching Techniques</a></li>
 	</ul>
 </ul>
