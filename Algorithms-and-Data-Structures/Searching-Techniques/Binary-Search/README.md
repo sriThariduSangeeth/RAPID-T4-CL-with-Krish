@@ -8,7 +8,7 @@
 
 > How Binary Search Works?
 
-<img alt="binary search" width="350" height="200"  src="https://stackabuse.s3.amazonaws.com/media/binary-search-in-java-1.gif">
+<img alt="binary search" width="450" height="200"  src="https://stackabuse.s3.amazonaws.com/media/binary-search-in-java-1.gif">
 
 
 > Pseudocode
