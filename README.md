@@ -12,3 +12,9 @@
 		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques">Searching Techniques</a></li>
 	</ul>
 </ul>
+
+
+> Data Structures
+
+
+> Algorithms 
