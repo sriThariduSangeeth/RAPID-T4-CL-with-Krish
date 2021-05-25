@@ -6,6 +6,6 @@
   <li>Bubble Sort’s time complexity is O(n2).</li>
 </ul>
 
-<p>
+<p align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="Bubble sort in action" width="300" height="180">
 </p>
