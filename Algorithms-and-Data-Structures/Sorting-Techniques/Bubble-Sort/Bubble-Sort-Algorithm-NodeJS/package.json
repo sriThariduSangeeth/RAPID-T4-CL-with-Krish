@@ -1,0 +1,12 @@
+{
+    "name": "Bubble-Sort-Algorithm-NodeJS",
+    "version": "1.0.0",
+    "description": "this project for Data Structures & Algorithms",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "dtsangeeth",
+    "license": "MIT"
+}
