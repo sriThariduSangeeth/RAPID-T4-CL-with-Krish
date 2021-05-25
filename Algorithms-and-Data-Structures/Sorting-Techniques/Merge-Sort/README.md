@@ -8,8 +8,8 @@
     <li>Conquer: Then we sort these small arrays.</li>
     <li>Combine: Finally, we merge these small arrays into one sorted array and keep doing it until we combine all the arrays.</li>
   </ul>
-  <li>Time complexity of Merge Sort is O(nlogn).</li>
-  <li>Space complexity of Merge Sort is O(n).</li>
+  <li>Time complexity of Merge Sort is O(n * log n).</li>
+  <li>Space complexity of Merge Sort is O(log n).</li>
 </ul>
 
 <p align="center" >
