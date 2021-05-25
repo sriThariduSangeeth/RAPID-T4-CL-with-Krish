@@ -28,12 +28,12 @@
 
 > Example :
 
-### Linear Search
+### Binary Search
 <p align="center">
   <img alt="" width="596" height="182"  src="https://miro.medium.com/max/596/1*AunhjlInGjD1ZNEMPOF_xg.gif" >
 </p>
 
-### Binary Search
+### Linear Search
 <p align="center">
   <img alt="" width="596" height="188" src="https://miro.medium.com/max/596/1*M-jZ-x5GcOwkGPic0igdww.gif">
 </p>
