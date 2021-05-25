@@ -1,4 +1,3 @@
-<h3 align="center">:rotating_light: :construction:&ensp;&ensp;Work In Progress&ensp;&ensp;:construction: :rotating_light:</h3>
 <h1 align="center">Algorithms and Data Structures</h1>
 
 <ul>
