@@ -8,11 +8,7 @@
   <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Binary-Search">Binary search</a>
   </li>
   
-  
-      ````
         Sequential Search : In this, the list or array is traversed sequentially and every element is checked.
-  
-      ````
   
   <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Linear-Search">Linear Search</a>     </li>
   
