@@ -13,7 +13,7 @@
 </ul>
 
 <p align="center">
-  <img src="https://stackabuse.s3.amazonaws.com/media/selection-sort-in-javascript-1.gif" alt="selection sort visualization">
+  <img src="https://stackabuse.s3.amazonaws.com/media/selection-sort-in-javascript-1.gif" alt="selection sort visualization" width="300" height="180">
 </p>
 
 > Pseudocode
