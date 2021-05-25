@@ -1,0 +1,94 @@
+# Default ignored files
+HELP.md
+target/
+/shelf/
+/workspace.xml
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+# Datasource local storage ignored files
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+*.iml
+
+# Compiled class file
+*.class
+
+#maven command
+mvnw
+mvnw.cmd
+
+
+# Log file
+*.log
+#idea file
+.idea/
+# BlueJ files
+*.ctxt
+.mvn/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+
+# compiled output
+dist/
+tmp/
+out-tsc/
+
+# dependencies
+node_modules/
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+#google token
+*.p12
+
