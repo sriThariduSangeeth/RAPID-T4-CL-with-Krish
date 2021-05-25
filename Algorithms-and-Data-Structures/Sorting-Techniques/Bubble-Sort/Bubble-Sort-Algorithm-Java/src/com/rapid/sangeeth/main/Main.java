@@ -1,6 +1,6 @@
 package com.rapid.sangeeth.main;
 
-import com.rapid.sangeeth.sort.BubbleSort;
+import com.rapid.sangeeth.arraySort.BubbleSort;
 
 /**
  * @author dtsangeeth

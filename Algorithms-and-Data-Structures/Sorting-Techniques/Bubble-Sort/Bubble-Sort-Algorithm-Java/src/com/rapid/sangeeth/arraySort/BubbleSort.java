@@ -1,4 +1,4 @@
-package com.rapid.sangeeth.sort;
+package com.rapid.sangeeth.arraySort;
 
 /**
  * @author dtsangeeth
@@ -7,7 +7,7 @@ package com.rapid.sangeeth.sort;
  */
 public class BubbleSort {
 
-    // sort int array using inner for loop - O(n)
+    // sort int array using inner for loop - O(n*n)
     // Ascending Order - swap
     public void sortAlgorithm(int arr[]){
         int n = arr.length;
