@@ -1,5 +1,5 @@
 {
-    "name": "bubble-Sort-Algorithm-NodeJS",
+    "name": "merge-sort-algorithm-nodejs",
     "version": "1.0.0",
     "description": "this project for Data Structures & Algorithms",
     "main": "app.js",
