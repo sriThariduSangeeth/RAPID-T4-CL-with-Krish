@@ -1,9 +1,9 @@
 <h1 align="center">RAPID T4 CL</h1>
-<h3>Practical Tasks 01</h3>
+<h3>Practical Tasks 01</h3> :star: :school_satchel:
 
 > There are 4 questions to implement.
 
-### Write a Programme
+### Write a Programme :hourglass_flowing_sand:
 
 - To find 3rd larger number in given number array.
 - To Count and display number of repetition in each letter in a sentence.
