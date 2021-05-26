@@ -11,6 +11,7 @@
 		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques">Sorting Techniques</a></li>
 		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques">Searching Techniques</a></li>
 	</ul>
+<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Practical-Tasks-01">Practical Tasks 01</a> </li>
 </ul>
 
 
