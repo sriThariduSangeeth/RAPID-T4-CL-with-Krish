@@ -8,6 +8,8 @@
 
 > How Binary Search Works?
 
+- Thid array should be a sorted array before apply binary searching.
+
 <img alt="binary search" width="450" height="200"  src="https://stackabuse.s3.amazonaws.com/media/binary-search-in-java-1.gif">
 
 
