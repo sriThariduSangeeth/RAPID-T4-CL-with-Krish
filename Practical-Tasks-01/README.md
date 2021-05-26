@@ -15,7 +15,7 @@
 
 > Clone Repo 
 ````
-https://github.com/sriThariduSangeeth/RAPID-T4-CL.git
+https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 ````
 > move to **Practical-Tasks-01** directry
 > install packeges :
