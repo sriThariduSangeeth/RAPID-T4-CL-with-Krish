@@ -50,7 +50,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	RESPONSE : Json.obj
 	
 	```
-3. [Quetion Three](./api/qTwo/rapid.qTree.service.js)
+3. [Quetion Three](./api/qTree/rapid.qTree.service.js)
   - [x] find missing number of given sequence number set
 
 	```
@@ -59,7 +59,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	RESPONSE : Json.obj
 	
 	```
-4. [Quetion Four](./api/qTwo/rapid.qFour.service.js)
+4. [Quetion Four](./api/qFour/rapid.qFour.service.js)
   - [x] find given word is anagram or not.
 
 	```
