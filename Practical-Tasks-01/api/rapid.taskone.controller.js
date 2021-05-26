@@ -26,7 +26,8 @@ async function qtwo(req, res) {
         });
     }).catch(error => {
         res.status(404).json({
-            success: 0
+            success: 0,
+            data: error
         });
     });
 }

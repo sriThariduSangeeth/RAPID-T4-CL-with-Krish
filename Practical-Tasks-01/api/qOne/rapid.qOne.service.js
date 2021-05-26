@@ -1,8 +1,44 @@
-function queationOne(res) {
+function queationOne(req) {
     return new Promise((resolve, reject) => {
-        console.log(res.body.array);
-        resolve("this method call");
+
+        if (req.body.array) {
+            try {
+                resolve(findBiggestNum(req.body.array));
+            } catch (e) {
+                reject(e);
+            }
+
+        } else {
+            reject("reqest body is not empty");
+        }
     });
 };
+
+const findBiggestNum = (arr) => {
+    const sortarr = quickSort(arr);
+    return sortarr[sortarr.length - 3];
+}
+
+const quickSort = (array) => {
+    if (array.length === 0) {
+        return [];
+    } else {
+        const pivotValue = array[0];
+        // Sort elements into three piles
+        let lesser = [];
+        let equal = [];
+        let greater = [];
+        for (let e of array) {
+            if (e < pivotValue) {
+                lesser.push(e);
+            } else if (e > pivotValue) {
+                greater.push(e);
+            } else {
+                equal.push(e);
+            }
+        }
+        return [...quickSort(lesser), ...equal, ...quickSort(greater)];
+    }
+}
 
 module.exports = { queationOne };
