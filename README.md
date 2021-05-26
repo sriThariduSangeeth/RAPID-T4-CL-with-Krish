@@ -12,6 +12,9 @@
 		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques">Searching Techniques</a></li>
 	</ul>
 <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Practical-Tasks-01">Practical Tasks 01</a> </li>
+	<ul>
+		<li>Four practical Questions has implemented in single NodeJS server</li>
+	</ul>
 </ul>
 
 
