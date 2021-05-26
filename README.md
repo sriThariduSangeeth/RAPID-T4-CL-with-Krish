@@ -7,9 +7,16 @@
 
 1. [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
 	- [Sorting Techniques](./Algorithms-and-Data-Structures/Sorting-Techniques)
+		- [x] Java
+		- [x] JavaScript
 	- [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
-	
+		- [x] Java
+		- [x] JavaScript
+
 2. [Practical Tasks 01](./Practical-Tasks-01)
+3. 
+	- [ ] Java
+	- [x] JavaScript
 	````
 	Four practical Questions have implemented in single NodeJS server
 	````
