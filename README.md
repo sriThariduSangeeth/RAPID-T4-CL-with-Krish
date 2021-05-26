@@ -5,18 +5,13 @@
 > Here each and every examples has implemented based on Java and JavaScript.
 
 
-<ul>
-<li>Algorithms and Data Structures</li>
-	<ul>
-		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques">Sorting Techniques</a></li>
-		<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques">Searching Techniques</a></li>
-	</ul>
-<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Practical-Tasks-01">Practical Tasks 01</a> </li>
-	<ul>
-		<li>Four practical Questions has implemented in single NodeJS server</li>
-	</ul>
-</ul>
-
+1. Algorithms and Data Structures<
+	- [Sorting Techniques](./Algorithms-and-Data-Structures/Sorting-Techniques)
+	- [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
+	
+2. [Practical Tasks 01](./Practical-Tasks-01)
+	- Four practical Questions has implemented in single NodeJS server
+	
 
 > Data Structures
 
