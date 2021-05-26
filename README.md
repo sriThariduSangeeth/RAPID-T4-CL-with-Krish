@@ -10,11 +10,10 @@
 		- [x] Java
 		- [x] JavaScript
 	- [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
-		- [x] Java
+		- [ ] Java
 		- [x] JavaScript
 
-2. [Practical Tasks 01](./Practical-Tasks-01)
-3. 
+2. [Practical Tasks 01](./Practical-Tasks-01) 
 	- [ ] Java
 	- [x] JavaScript
 	````
