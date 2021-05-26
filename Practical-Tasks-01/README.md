@@ -41,7 +41,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	
 	```
 
-2. Quetion Two
+2. [Quetion Two](./api/qTwo/rapid.qTwo.service.js)
   - [x] Count and display number of repetition in each letter in a sentence
 
 	```
@@ -50,7 +50,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	RESPONSE : Json.obj
 	
 	```
-3. Quetion Three
+3. [Quetion Three](./api/qTwo/rapid.qTree.service.js)
   - [x] find missing number of given sequence number set
 
 	```
@@ -59,7 +59,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	RESPONSE : Json.obj
 	
 	```
-4. Quetion Four
+4. [Quetion Four](./api/qTwo/rapid.qFour.service.js)
   - [x] find given word is anagram or not.
 
 	```
