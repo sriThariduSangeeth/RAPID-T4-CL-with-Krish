@@ -26,7 +26,7 @@
 #### Release REST API
 
 1. Quetion One
-  - find 3rd larger number in given number array
+  - [x] find 3rd larger number in given number array
 
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-one
