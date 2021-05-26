@@ -5,12 +5,11 @@
 > Here each and every examples has implemented based on Java and JavaScript.
 
 
-1. Algorithms and Data Structures<
+1. [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
 	- [Sorting Techniques](./Algorithms-and-Data-Structures/Sorting-Techniques)
 	- [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
 	
 2. [Practical Tasks 01](./Practical-Tasks-01)
-	
 	````
 	Four practical Questions have implemented in single NodeJS server
 	````
