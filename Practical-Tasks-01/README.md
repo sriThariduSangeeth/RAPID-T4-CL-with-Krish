@@ -31,7 +31,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 
 #### Release REST API
 
-1. Quetion One
+1. [Quetion One](./api/qOne/rapid.qOne.service.js)
   - [x] find 3rd larger number in given number array
 
 	```
