@@ -18,7 +18,7 @@
 	npm install
 	````
 	
-> run project
+> run project :
 	````
 	npm start
 	````
