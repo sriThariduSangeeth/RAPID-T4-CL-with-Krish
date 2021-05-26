@@ -11,3 +11,16 @@
 - To find given word is anagram or not ?
 	ex: user should insert two words to check whether anagram or not.
 
+#### This is a NodeJS Express Project and To run this project
+
+> install packeges :
+	````
+	npm install
+	````
+> run project
+	````
+	npm start
+	````
+
+#### Release REST API
+//TODO
