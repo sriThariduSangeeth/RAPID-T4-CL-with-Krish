@@ -1,5 +1,5 @@
 <h1 align="center">RAPID T4 CL</h1>
-<h3>Practical Tasks 01</h3> :star: :school_satchel:
+<h3>Practical Tasks 01 :star: :school_satchel: </h3> 
 
 > There are 4 questions to implement.
 
