@@ -13,6 +13,11 @@
 
 #### This is a NodeJS Express Project and To run this project
 
+> Clone Repo 
+````
+https://github.com/sriThariduSangeeth/RAPID-T4-CL.git
+````
+> move to **Practical-Tasks-01** directry
 > install packeges :
 	````
 	npm install
@@ -36,7 +41,7 @@
 	```
 
 2. Quetion Two
-  - Count and display number of repetition in each letter in a sentence
+  - [x] Count and display number of repetition in each letter in a sentence
 
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-two
@@ -45,7 +50,7 @@
 	
 	```
 3. Quetion Three
-  - find missing number of given sequence number set
+  - [x] find missing number of given sequence number set
 
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-tree
@@ -54,7 +59,7 @@
 	
 	```
 4. Quetion Four
-  - find given word is anagram or not.
+  - [x] find given word is anagram or not.
 
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-four
