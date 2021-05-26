@@ -10,8 +10,10 @@
 	- [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
 	
 2. [Practical Tasks 01](./Practical-Tasks-01)
-	- Four practical Questions has implemented in single NodeJS server
 	
+	````
+	Four practical Questions has implemented in single NodeJS server
+	````
 
 > Data Structures
 
