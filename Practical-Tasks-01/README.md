@@ -24,4 +24,41 @@
 	````
 
 #### Release REST API
-//TODO
+
+1. Quetion One
+  - find 3rd larger number in given number array
+
+	```
+	API (post)  : http://localhost:3000/api/rapid/q-one
+	BODY : { "array" : [3,6,4,8,6,9,5,23,5,4]}
+	RESPONSE : Json.obj
+	
+	```
+
+2. Quetion Two
+  - Count and display number of repetition in each letter in a sentence
+
+	```
+	API (post)  : http://localhost:3000/api/rapid/q-two
+	BODY : { "word" : "These days I am studying"}
+	RESPONSE : Json.obj
+	
+	```
+3. Quetion Three
+  - find missing number of given sequence number set
+
+	```
+	API (post)  : http://localhost:3000/api/rapid/q-tree
+	BODY : { "array" : [1,2,3,4,5,7,8,9,10]}
+	RESPONSE : Json.obj
+	
+	```
+4. Quetion Four
+  - find given word is anagram or not.
+
+	```
+	API (post)  : http://localhost:3000/api/rapid/q-four
+	BODY : { "inputOne" : "Stressed", "inputTwo" : "Desserts"}
+	RESPONSE : Json.obj-(True | False)
+	
+	```
