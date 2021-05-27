@@ -38,7 +38,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	API (post)  : http://localhost:3000/api/rapid/q-one
 	BODY : { "array" : [3,6,4,8,6,9,5,23,5,4]}
 	RESPONSE : { "success": 1,
-  			"data": { "sortedArray": [3,4,4,5,5,6,6,8,9,23], "largNumber": 8 }
+  			"data": { "sortedArray": [3,4,4,5,5,6,6,8,9,23], "thirdLargNumber": 8 }
 		   }	
 	```
 
