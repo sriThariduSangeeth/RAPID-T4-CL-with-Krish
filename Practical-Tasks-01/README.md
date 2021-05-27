@@ -66,6 +66,8 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-four
 	BODY : { "inputOne" : "Stressed", "inputTwo" : "Desserts"}
-	RESPONSE : Json.obj-(True | False)
+	RESPONSE : { "success": 1, 
+			"data": { "anagram": true, "description": "Yes... These two words are anagram" }
+			}
 	
 	```
