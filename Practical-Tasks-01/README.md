@@ -52,7 +52,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 			"sortedArray": ["I","T","a","a","d","d","e","e","g","h","i","m","n","s","s","s","t","u","y","y"],
         		"duplicateReport": {
             				"I": 1,
-           				"T": 1,
+           					"T": 1,
             				"a": 2,
             				"d": 2,
             				"e": 2,
