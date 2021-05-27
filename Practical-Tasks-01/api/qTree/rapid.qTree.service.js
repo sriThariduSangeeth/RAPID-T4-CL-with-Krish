@@ -1,4 +1,5 @@
 const { quickSort } = require("../common/quick.sort");
+const { ResponseThree } = require("../common/response");
 
 function queationTree(req) {
     return new Promise((resolve, reject) => {
@@ -14,6 +15,11 @@ function queationTree(req) {
     });
 };
 
+
+/** 
+ * if this Sequence number set start from 1 this method will vaild
+ * (n*(n+1))/2 will give The sum of all the numbers in expected array
+ */
 const numberSequence = (arr) => {
 
     let trueArryLength = arr.length + 1;
@@ -31,14 +37,22 @@ const mixNumberSequence = (arr) => {
     const trueArryLength = arr.length + 1;
     const sortedArr = quickSort(arr);
     let mid = findMiddleNumber(sortedArr);
-    return 0;
+    if (mid.length == 1) {
+        return new ResponseThree(sortedArr, (arr[0] - 1) + " or " + mid[0]);
+    } else {
+        return new ResponseThree(sortedArr, mid[0]);
+    }
 
 }
 
 const findMiddleNumber = (arr) => {
-    for (var i = 0; i <= arr.length; i++) {
-        console.log(arr[i]);
+    let res = [];
+    for (var i = 0; i <= arr.length - 1; i++) {
+        if (arr[i] + 1 != arr[i + 1]) {
+            res.push(arr[i] + 1);
+        }
     }
+    return res;
 }
 
 module.exports = { queationTree };
