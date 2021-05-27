@@ -48,7 +48,24 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-two
 	BODY : { "word" : "These days I am studying"}
-	RESPONSE : Json.obj
+	RESPONSE : { "success": 1, "data": {
+			"sortedArray": ["I","T","a","a","d","d","e","e","g","h","i","m","n","s","s","s","t","u","y","y"],
+        		"duplicateReport": {
+            				"I": 1,
+           				"T": 1,
+            				"a": 2,
+            				"d": 2,
+            				"e": 2,
+            				"g": 1,
+            				"h": 1,
+            				"i": 1,
+            				"m": 1,
+            				"n": 1,
+            				"s": 3,
+            				"t": 1,
+            				"u": 1,
+            				"y": 2	}	}
+			}
 	
 	```
 3. [Quetion Three](./api/qTree/rapid.qTree.service.js)
