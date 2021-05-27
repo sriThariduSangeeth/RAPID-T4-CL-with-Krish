@@ -53,11 +53,10 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
         		"duplicateReport": {
             				"I": 1,	"T": 1,	"a": 2,	"d": 2,
             				"e": 2,	"g": 1,	"h": 1,	"i": 1,
-            				"m": 1,	"n": 1,	"s": 3,	"t": 1,
-            				"u": 1,	"y": 2	},
-			"minimumReport": {	"t": 2,	"h": 1,	"e": 2,	"s": 3,	"d": 2,
-            					"a": 2,	"y": 2,	"i": 2,	"m": 1,	"u": 1,
-            					"n": 1,	"g": 1	}
+            				"m": 1,	"n": 1,	"s": 3,	"t": 1,	"u": 1,	"y": 2	},
+			"minimumReport": {	
+					"A": 2,	"D": 2,	"E": 2,	"G": 1,	"H": 1,	"I": 2,	
+					"M": 1,	"N": 1,	"S": 3,	"T": 2,	"U": 1,	"Y": 2	}
 					}
 			}
 	
