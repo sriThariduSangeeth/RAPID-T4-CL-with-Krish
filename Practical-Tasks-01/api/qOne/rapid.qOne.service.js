@@ -1,3 +1,6 @@
+const { quickSort } = require("../common/quick.sort");
+const { ResponseOne } = require("../common/response");
+
 function queationOne(req) {
     return new Promise((resolve, reject) => {
 
@@ -16,29 +19,8 @@ function queationOne(req) {
 
 const findBiggestNum = (arr) => {
     const sortarr = quickSort(arr);
-    return sortarr[sortarr.length - 3];
-}
-
-const quickSort = (array) => {
-    if (array.length === 0) {
-        return [];
-    } else {
-        const pivotValue = array[0];
-        // Sort elements into three piles
-        let lesser = [];
-        let equal = [];
-        let greater = [];
-        for (let e of array) {
-            if (e < pivotValue) {
-                lesser.push(e);
-            } else if (e > pivotValue) {
-                greater.push(e);
-            } else {
-                equal.push(e);
-            }
-        }
-        return [...quickSort(lesser), ...equal, ...quickSort(greater)];
-    }
+    let response = new ResponseOne(sortarr, sortarr[sortarr.length - 3]);
+    return response;
 }
 
 module.exports = { queationOne };

@@ -7,7 +7,7 @@ async function qOne(req, res) {
     const response = await queationOne(req).then(data => {
         res.status(200).json({
             success: 1,
-            largerNumber: data
+            data: data
         });
     }).catch(error => {
         res.status(404).json({
@@ -27,7 +27,7 @@ async function qtwo(req, res) {
     }).catch(error => {
         res.status(404).json({
             success: 0,
-            repetition: error
+            data: error
         });
     });
 }
@@ -36,7 +36,7 @@ async function qTree(req, res) {
     const response = await queationTree(req).then(data => {
         res.status(200).json({
             success: 1,
-            missingNumber: data
+            data: data
         });
     }).catch(error => {
         res.status(404).json({
@@ -49,7 +49,7 @@ async function qFour(req, res) {
     const response = await queationFour(req).then(data => {
         res.status(200).json({
             success: 1,
-            result: data
+            data: data
         });
     }).catch(error => {
         res.status(404).json({

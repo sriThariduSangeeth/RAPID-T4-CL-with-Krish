@@ -1,3 +1,5 @@
+const { ResponseFour } = require("../common/response");
+
 function queationFour(req) {
     return new Promise((resolve, reject) => {
         if (req.body) {
@@ -17,9 +19,9 @@ function queationFour(req) {
 const findAnagram = (val1, val2) => {
     const reverseString = reversArry(val1.toLowerCase());
     if (reverseString == val2.toLowerCase()) {
-        return "True... Yes These two words are anagram";
+        return new ResponseFour(true, "Yes... These two words are anagram");
     } else {
-        return "False... No These two words are not anagram";
+        return new ResponseFour(false, "No... These two words are not anagram");
     }
 }
 
@@ -33,7 +35,6 @@ const reversArry = (arr) => {
         ret.push(stringArr[i]);
         res += stringArr[i] + "";
     }
-    console.log(res);
     return res;
 }
 
