@@ -66,8 +66,11 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 
 	```
 	API (post)  : http://localhost:3000/api/rapid/q-tree
-	BODY : { "array" : [1,2,3,4,5,7,8,9,10]}
-	RESPONSE : Json.obj
+	BODY : { "array" : [21,20,25,22,23,28,26,27,29] }
+	RESPONSE : { "success": 1, "data": {
+        		"sortedArray": [ 20, 21, 22, 23, 25, 26, 27, 28, 29 ],
+        		"missingNumber": 24	}
+		   }
 	
 	```
 4. [Quetion Four](./api/qFour/rapid.qFour.service.js)
