@@ -13,6 +13,8 @@
       - [ ] Java 
       - [x] JavaScript
 
+	<p>&nbsp; Data structure brings out organizing the data in memory since algorithm is a collection of steps to solve particular problem. Here, I have brought 		out few sorting and searching algorithms to overcome above scenario. </p>
+	
 2. [Practical Tasks 01](./Practical-Tasks-01) 
     - [ ] Java
     - [x] JavaScript
@@ -20,6 +22,4 @@
 	Four practical Questions have implemented in single NodeJS server
 	````
 
-> Data Structures and Algorithms
 
-<p>&nbsp; Data structure brings out organizing the data in memory since algorithm is a collection of steps to solve particular problem. Here, I have brought out few sorting and searching algorithms to overcome above scenario. </p>
