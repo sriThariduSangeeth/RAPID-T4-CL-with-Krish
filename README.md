@@ -20,7 +20,6 @@
 	Four practical Questions have implemented in single NodeJS server
 	````
 
-> Data Structures
+> Data Structures and Algorithms
 
-
-> Algorithms 
+<p> Data structure brings out organizing the data in memory since algorithm is a collection of steps to solve particular problem. Here, I have brought out few sorting and searching algorithms to overcome above scenario. </p>
