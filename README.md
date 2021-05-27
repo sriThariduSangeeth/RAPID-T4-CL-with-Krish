@@ -6,20 +6,20 @@
 
 
 1. [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
-	- [Sorting Techniques](./Algorithms-and-Data-Structures/Sorting-Techniques)
-		- [x] Java
-		- [x] JavaScript
-	- [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
-		- [ ] Java
-		- [x] JavaScript
+    - [Sorting Techniques](./Algorithms-and-Data-Structures/Sorting-Techniques)
+      - [x] Java
+      - [x] JavaScript
+    - [Searching Techniques](./Algorithms-and-Data-Structures/Searching-Techniques)
+      - [ ] Java 
+      - [x] JavaScript
 
 2. [Practical Tasks 01](./Practical-Tasks-01) 
-	- [ ] Java
-	- [x] JavaScript
+    - [ ] Java
+    - [x] JavaScript
 	````
 	Four practical Questions have implemented in single NodeJS server
 	````
-/
+
 > Data Structures and Algorithms
 
 <p>&nbsp; Data structure brings out organizing the data in memory since algorithm is a collection of steps to solve particular problem. Here, I have brought out few sorting and searching algorithms to overcome above scenario. </p>
