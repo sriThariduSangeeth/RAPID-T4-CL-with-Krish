@@ -17,6 +17,13 @@ function queationFour(req) {
     });
 };
 
+/**
+ * compare both string after revers input one
+ * @param {input-one} val1 
+ * @param {input-two} val2 
+ * @returns ResponseFour Obj
+ */
+
 const findAnagram = (val1, val2) => {
     const reverseString = reversArry(val1.toLowerCase());
     //chack both string are equal or not

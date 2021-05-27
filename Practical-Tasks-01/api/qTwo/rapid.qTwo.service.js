@@ -14,6 +14,11 @@ function queationTwo(req) {
     });
 };
 
+/**
+ * count duplicates letter in given sentence
+ * @param {sentence} word 
+ * @returns ResponseTwo Obj
+ */
 const findRepetition = (word) => {
 
     //remove spaces and inster into string array and sort
@@ -32,10 +37,11 @@ const findRepetition = (word) => {
     return new ResponseTwo(stringArr, count, summer);
 };
 
-
-
-//to remove duplicate in array
-//there are three methods to use
+/**
+ * to remove duplicate in array
+ * - there are three methods to use
+ * @param {sentence} word 
+ */
 
 const removeDuplicates = (word) => {
 
