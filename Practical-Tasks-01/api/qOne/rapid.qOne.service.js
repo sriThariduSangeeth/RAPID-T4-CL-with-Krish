@@ -17,6 +17,11 @@ function queationOne(req) {
     });
 };
 
+/**
+ * First sort this array using Quick sort and find 3rd biggest number
+ * @param  int array
+ * @returns ResponseOne Object
+ */
 const findBiggestNum = (arr) => {
     const sortarr = quickSort(arr);
     let response = new ResponseOne(sortarr, sortarr[sortarr.length - 3]);

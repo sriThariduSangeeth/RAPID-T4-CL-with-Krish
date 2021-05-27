@@ -32,6 +32,11 @@ const numberSequence = (arr) => {
     return sumOfAll - sumOfArray;
 }
 
+/** 
+ * This method can apply every number Sequence. it can be start form anywhere
+ * if last number or first number missing this will predic both number
+ * if middle number missing this will display only that number
+ */
 const mixNumberSequence = (arr) => {
 
     const trueArryLength = arr.length + 1;

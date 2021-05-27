@@ -16,17 +16,19 @@ function queationTwo(req) {
 
 const findRepetition = (word) => {
 
-    const stringArr = Array.from(word.replace(/ /g, ''));
+    //remove spaces and inster into string array and sort
+    const stringArr = Array.from(word.replace(/ /g, '')).sort();
+    //here every and each letter convert to Upper Case
     const summerArr = Array.from(word.replace(/ /g, '').toUpperCase()).sort();
 
-    // sort string array
-    stringArr.sort();
+    //difine map 
     var count = {};
     var summer = {};
+
     // insert into map
     stringArr.forEach(function(i) { count[i] = (count[i] || 0) + 1; });
-
     summerArr.forEach(function(i) { summer[i] = (summer[i] || 0) + 1; });
+
     return new ResponseTwo(stringArr, count, summer);
 };
 
