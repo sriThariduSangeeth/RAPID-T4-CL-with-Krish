@@ -12,3 +12,15 @@
 	<li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Sorting-Techniques/Selection-Sort">Selection Sort</a></li>
 	</ul>
 </ul>
+
+
+> Sort numbers in an array in ascending order:
+````
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a-b});
+````
+> Sort numbers in an array in descending order:
+````
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b-a});
+````
