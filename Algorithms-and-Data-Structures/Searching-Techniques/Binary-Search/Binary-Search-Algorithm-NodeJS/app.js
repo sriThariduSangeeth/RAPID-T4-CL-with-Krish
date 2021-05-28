@@ -43,9 +43,10 @@ function quickSortTwo(array) {
 //Using Taditional array to search
 // first need to sort this mix array
 
-var numbers = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 2, 55, 1, 234, 92];
-if (binarySearch(quickSortTwo(numbers), 43, 0, numbers.length - 1) != null) {
-    console.log("Found :" + 43);
+var numbers = [1, 4, 2, 8, 345, 123, 43, 32, 63, 123, 2, 55, 1, 234, 92];
+const findNum = 133;
+if (binarySearch(quickSortTwo(numbers), findNum, 0, numbers.length - 1) != null) {
+    console.log("Found :" + findNum);
 } else {
-    console.log("Not Found :" + 43);
+    console.log("Not Found :" + findNum);
 }
