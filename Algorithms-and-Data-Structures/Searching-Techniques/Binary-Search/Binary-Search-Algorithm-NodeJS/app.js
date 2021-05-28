@@ -40,7 +40,7 @@ function quickSortTwo(array) {
 }
 
 
-//Using Taditional array to search
+// Using Taditional array to search
 // first need to sort this mix array
 
 var numbers = [1, 4, 2, 8, 345, 123, 43, 32, 63, 123, 2, 55, 1, 234, 92];

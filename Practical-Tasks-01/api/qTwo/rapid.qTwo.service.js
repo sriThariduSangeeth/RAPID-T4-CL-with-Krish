@@ -31,8 +31,8 @@ const findRepetition = (word) => {
     var summer = {};
 
     // insert into map
-    stringArr.forEach(function(i) { count[i] = (count[i] || 0) + 1; });
-    summerArr.forEach(function(i) { summer[i] = (summer[i] || 0) + 1; });
+    stringArr.forEach(i => count[i] = (count[i] || 0) + 1);
+    summerArr.forEach(i => summer[i] = (summer[i] || 0) + 1);
 
     return new ResponseTwo(stringArr, count, summer);
 };
