@@ -24,7 +24,7 @@ points.sort(function(a, b){return a-b});
 var points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return b-a});
 ````
-- if you want to order lower cases and upper cases strings. ** sort().reverse() ** method not working.
+- if you want to order lower cases and upper cases strings. **sort().reverse()** method not working.
 
 ````
 var points = ["a","b","c","A","B","Z"];
