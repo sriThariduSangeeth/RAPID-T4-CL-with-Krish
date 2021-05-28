@@ -5,12 +5,12 @@
   these algorithms are generally classified into two categories:</p>
 
 <ul>
-  <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Binary-Search">Linear search</a>
+  <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Linear-Search">Linear search</a>
   </li>
   
         Sequential Search : In this, the list or array is traversed sequentially and every element is checked.
   
-  <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Linear-Search">Binary Search</a>     </li>
+  <li><a href="https://github.com/sriThariduSangeeth/RAPID-T4-CL/tree/master/Algorithms-and-Data-Structures/Searching-Techniques/Binary-Search">Binary Search</a>     </li>
   
         Interval Search : These algorithms are specifically designed for searching in sorted data-structures. 
         These type of searching algorithms are much more efficient than Linear Search as they repeatedly target 
