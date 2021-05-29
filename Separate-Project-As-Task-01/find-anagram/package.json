@@ -1,0 +1,11 @@
+{
+  "name": "find-anagram",
+  "version": "1.0.0",
+  "description": "find given word is anagram or not.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dtsangeeth",
+  "license": "MIT"
+}

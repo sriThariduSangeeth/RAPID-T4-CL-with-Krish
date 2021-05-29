@@ -1,0 +1,11 @@
+{
+  "name": "find-third-largest-number",
+  "version": "1.0.0",
+  "description": "find 3rd larger number in given number array",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dtsangeeth",
+  "license": "MIT"
+}
