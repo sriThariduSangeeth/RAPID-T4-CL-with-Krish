@@ -1,11 +1,12 @@
 {
-  "name": "find-missing-number",
-  "version": "1.0.0",
-  "description": "find missing number of given sequence number set",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "dtsangeeth",
-  "license": "MIT"
+    "name": "find-missing-number",
+    "version": "1.0.0",
+    "description": "find missing number of given sequence number set",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "dtsangeeth",
+    "license": "MIT"
 }
