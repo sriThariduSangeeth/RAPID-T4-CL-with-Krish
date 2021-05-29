@@ -27,12 +27,16 @@
 3. [find-anagram](./find-anagram)
     - [ ] Java
     - [x] JavaScript
+	<p> Using two stirng input need to find these input are angram or not </p>
 4. [find-missing-number](./find-missing-number)
     - [ ] Java
     - [x] JavaScript
+	<p> Using mixed sequence number array need to find missing number in given number array </p>
 5. [find-third-largest-number](./find-third-largest-number)
     - [ ] Java
     - [x] JavaScript
+	<p> Using mixed int array need to find 3rd larger number in given number array </p>
 6. [letter-repitition-of-sentence](./letter-repitition-of-sentence)
     - [ ] Java
     - [x] JavaScript
+	<p> Using given sentence need to count how meny repitition in each letter.</p>
