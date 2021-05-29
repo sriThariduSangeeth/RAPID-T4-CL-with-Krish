@@ -6,4 +6,8 @@ package com.rapid.sangeeth.arraySearch;
  * @project Linear-Search-Algorithm-Java
  */
 public class LinearSearch {
+
+    public LinearSearch(){
+
+    }
 }
