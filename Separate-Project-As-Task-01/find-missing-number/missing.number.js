@@ -20,6 +20,7 @@ const mixNumberSequence = (arr) => {
 
 }
 
+// chacke whether middle element missing or not
 const findMiddleNumber = (arr) => {
     let res = [];
     for (var i = 0; i <= arr.length - 1; i++) {
