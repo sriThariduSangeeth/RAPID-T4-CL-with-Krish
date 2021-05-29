@@ -7,3 +7,4 @@ let inputTwo = "Desserts";
 const input = new Request(inputOne, inputTwo);
 // logic method
 const res = findAnagram(input);
+console.log(res);

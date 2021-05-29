@@ -4,9 +4,9 @@ const findAnagram = (input) => {
     const reverseString = reversArry(input.inputOne.toLowerCase());
     //chack both string are equal or not
     if (reverseString == input.inputTwo.toLowerCase()) {
-        console.log(new Response(true, "Yes... These two words are anagram"));
+        return new Response(true, "Yes... These two words are anagram");
     } else {
-        console.log(new Response(false, "No... These two words are not anagram"));
+        return new Response(false, "No... These two words are not anagram");
     }
 }
 
