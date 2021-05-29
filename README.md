@@ -21,8 +21,7 @@
     - [x] JavaScript
  
  
- <div class="text-purple">
+ <p class="text-purple">
   Four practical Questions have implemented in single NodeJS server
-</div>
-- ![#f03c15]() `#f03c15`
+</p>
 
