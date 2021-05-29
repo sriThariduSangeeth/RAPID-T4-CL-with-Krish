@@ -24,3 +24,16 @@
   Four practical Questions have implemented in single NodeJS server
 </p>
 
+3. [Separate Project As Task 01](./Separate-Project-As-Task-01)
+   - [find-anagram](./Separate-Project-As-Task-01/find-anagram)
+     - [ ] Java
+     - [x] JavaScript
+   - [find-missing-number](./Separate-Project-As-Task-01/find-missing-number)
+     - [ ] Java
+     - [x] JavaScript
+   - [find-third-largest-number](./Separate-Project-As-Task-01/find-third-largest-number)
+     - [ ] Java
+     - [x] JavaScript
+   - [letter-repitition-of-sentence](./Separate-Project-As-Task-01/letter-repitition-of-sentence)
+     - [ ] Java
+     - [x] JavaScript
