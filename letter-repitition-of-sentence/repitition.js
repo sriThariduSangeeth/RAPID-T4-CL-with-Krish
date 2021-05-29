@@ -17,7 +17,6 @@ const findRepetition = (input) => {
     var mapSummary = new Map();
 
     // insert into map
-
     for (let i = 0; i < stringArr.length; i++) {
         mapAllRepition.set(stringArr[i], (mapAllRepition.get(stringArr[i]) || 0) + 1);
         mapSummary.set(summerArr[i], (mapAllRepition.get(summerArr[i]) || 0) + 1);
