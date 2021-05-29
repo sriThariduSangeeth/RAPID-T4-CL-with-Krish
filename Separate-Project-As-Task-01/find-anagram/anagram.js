@@ -1,10 +1,12 @@
+const Response = require("./output/response.obj");
+
 const findAnagram = (input) => {
     const reverseString = reversArry(input.inputOne.toLowerCase());
     //chack both string are equal or not
     if (reverseString == input.inputTwo.toLowerCase()) {
-        console.log({ "anagram": true, "description": "Yes... These two words are anagram" });
+        console.log(new Response(true, "Yes... These two words are anagram"));
     } else {
-        console.log({ "anagram": false, "description": "No... These two words are not anagram" });
+        console.log(new Response(false, "No... These two words are not anagram"));
     }
 }
 
