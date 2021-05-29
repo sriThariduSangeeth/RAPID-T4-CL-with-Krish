@@ -21,8 +21,6 @@
     - [x] JavaScript
  
  
-	````
-	Four practical Questions have implemented in single NodeJS server
-	````
++ Four practical Questions have implemented in single NodeJS server
 
 
