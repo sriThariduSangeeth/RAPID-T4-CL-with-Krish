@@ -12,7 +12,7 @@
 ````
 https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 ````
-> move to **find-anagram** directry
+> move to **find-third-largest-number** directry
 
 > install packeges :
 	````
