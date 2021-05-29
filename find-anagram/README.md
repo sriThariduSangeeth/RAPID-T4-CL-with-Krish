@@ -7,7 +7,7 @@
 - To find given word is anagram or not ?
 	ex: user should insert two words to check whether anagram or not.
 
-#### This is a NodeJS Express Project and To run this project
+#### This is a Simple NodeJS Project and To run this project
 
 > Clone Repo 
 ````
