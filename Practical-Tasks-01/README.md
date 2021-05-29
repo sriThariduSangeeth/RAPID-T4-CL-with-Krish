@@ -1,8 +1,6 @@
 <h1 align="center">RAPID T4 CL</h1>
 <h3>Practical Tasks 01 :star: :school_satchel: </h3> 
-<style>H1{color:Blue;}
-H3{color:DarkOrange;}
-p{color:Black;}</style>
+
 > There are 4 questions to implement.
 
 ### Write a Programme :hourglass_flowing_sand:
