@@ -20,8 +20,7 @@
     - [ ] Java
     - [x] JavaScript
  
- 
- <p class="text-purple" style="color: green">
+ <p>
   Four practical Questions have implemented in single NodeJS server
 </p>
 
