@@ -19,7 +19,8 @@
 2. [Practical Tasks 01](./Practical-Tasks-01) 
     - [ ] Java
     - [x] JavaScript
-    
+ 
+ 
 	````
 	Four practical Questions have implemented in single NodeJS server
 	````
