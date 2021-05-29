@@ -7,10 +7,10 @@ const Response = require("./output/response");
 const findRepetition = (input) => {
 
     let word = input.input;
-    //remove spaces and inster into string array and sort
-    const stringArr = Array.from(word.replace(/ /g, '')).sort();
+    //remove spaces and inster into string array
+    const stringArr = Array.from(word.replace(/ /g, ''));
     //here every and each letter convert to Upper Case
-    const summerArr = Array.from(word.replace(/ /g, '').toUpperCase()).sort();
+    const summerArr = Array.from(word.replace(/ /g, '').toUpperCase());
 
     //difine map 
     var mapAllRepition = new Map();
