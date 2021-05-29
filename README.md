@@ -21,7 +21,7 @@
     - [x] JavaScript
  
  
- <p class="text-purple">
+ <p class="text-purple" style="color: green">
   Four practical Questions have implemented in single NodeJS server
 </p>
 
