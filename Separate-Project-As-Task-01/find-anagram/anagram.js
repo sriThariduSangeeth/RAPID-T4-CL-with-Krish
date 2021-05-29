@@ -10,6 +10,11 @@ const findAnagram = (input) => {
     }
 }
 
+/**
+ * 
+ * @param {First input word} arr 
+ * @returns revers string after convert lowercase
+ */
 const reversArry = (arr) => {
     var ret = new Array;
     var res = "";

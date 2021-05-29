@@ -9,12 +9,17 @@ const quickSort = require("./sort/quick.sort");
  */
 const mixNumberSequence = (arr) => {
 
+    //this is length of existing array
     const trueArryLength = arr.array.length + 1;
+    // if this is mixed element array first need to sorted
     const sortedArr = quickSort(arr.array);
+    //check middle element missing or not
     let mid = findMiddleNumber(sortedArr);
     if (mid.length == 1) {
+        //if not middle element missed it can be last or first element
         console.log(new Response(sortedArr, (arr.array[0] - 1) + " or " + mid[0]));
     } else {
+        //if middle element missed
         console.log(new Response(sortedArr, mid[0]));
     }
 
