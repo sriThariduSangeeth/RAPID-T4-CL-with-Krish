@@ -13,14 +13,17 @@ const findRepetition = (input) => {
     const summerArr = Array.from(word.replace(/ /g, '').toUpperCase()).sort();
 
     //difine map 
-    var count = {};
-    var summer = {};
+    var mapAllRepition = new Map();
+    var mapSummary = new Map();
 
     // insert into map
-    stringArr.forEach(i => count[i] = (count[i] || 0) + 1);
-    summerArr.forEach(i => summer[i] = (summer[i] || 0) + 1);
 
-    return new Response(stringArr, count, summer);
+    for (let i = 0; i < stringArr.length; i++) {
+        mapAllRepition.set(stringArr[i], (mapAllRepition.get(stringArr[i]) || 0) + 1);
+        mapSummary.set(summerArr[i], (mapAllRepition.get(summerArr[i]) || 0) + 1);
+    }
+
+    return new Response(stringArr, mapAllRepition, mapSummary);
 };
 
 module.exports = { findRepetition };
