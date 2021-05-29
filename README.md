@@ -2,7 +2,7 @@
 <h1 align="center">RAPID T4 CL</h1>
 
 > CodeLAb assignment-02 code base that belongs to my office work. This is regarding RAPID training project based on Angular,NodeJS. &ensp;:boat: :boat:
-> Here each and every examples has implemented based on Java and JavaScript.
+>  Here, each and every examples has implemented based on Java and JavaScript.
 
 
 1. [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
@@ -19,6 +19,7 @@
 2. [Practical Tasks 01](./Practical-Tasks-01) 
     - [ ] Java
     - [x] JavaScript
+    
 	````
 	Four practical Questions have implemented in single NodeJS server
 	````
