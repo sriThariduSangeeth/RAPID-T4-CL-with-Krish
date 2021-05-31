@@ -1,11 +1,12 @@
 {
-  "name": "postorder-tree-traversal",
-  "version": "1.0.0",
-  "description": "This application shows how to happan postorder traversal in tree DFS",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "dtsangeeth",
-  "license": "MIT"
+    "name": "postorder-tree-traversal",
+    "version": "1.0.0",
+    "description": "This application shows how to happan postorder traversal in tree DFS",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node main.js"
+    },
+    "author": "dtsangeeth",
+    "license": "MIT"
 }
