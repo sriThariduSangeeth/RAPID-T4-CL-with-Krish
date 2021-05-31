@@ -4,14 +4,16 @@ const { queationTree } = require("./qTree/rapid.qTree.service");
 const { queationFour } = require("./qFour/rapid.qFour.service");
 
 async function qOne(req, res) {
-    const response = await queationOne(req).then(data => {
+    const response = await queationOne(req);
+    response.then(data => {
         res.status(200).json({
             success: 1,
             data: data
         });
     }).catch(error => {
         res.status(404).json({
-            success: 0
+            success: 0,
+            data: error
         });
     });
 
@@ -40,7 +42,8 @@ async function qTree(req, res) {
         });
     }).catch(error => {
         res.status(404).json({
-            success: 0
+            success: 0,
+            data: error
         });
     });
 }
