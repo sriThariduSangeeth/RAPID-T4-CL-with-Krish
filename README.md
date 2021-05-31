@@ -40,3 +40,7 @@
     - [ ] Java
     - [x] JavaScript
 	<p> Using given sentence need to count how meny repitition in each letter.</p>
+7. [number-reverse-without-string-fun](./number-reverse-without-string-fun)
+    - [ ] Java
+    - [x] JavaScript
+	<p>User can insert single number or number of array. then each numbers reverse and display</p>	
