@@ -1,0 +1,11 @@
+{
+  "name": "preorder-tree-traversal",
+  "version": "1.0.0",
+  "description": "This application shows how to happen preorder traversal in tree DFS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dtsangeeth",
+  "license": "MIT"
+}
