@@ -53,7 +53,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	Left ->  Root  -> Right
    ````
    <p align="center">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Inorder-traversal.gif"  width="250" height="100">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Inorder-traversal.gif"  width="350" height="200">
    </p>
    
 4. PreOrder Traversal Demo :
