@@ -27,8 +27,11 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	````
 	npm start
 	````
-
-1. Find Leaf Node in Binary Tree
+1. Insert Array : 
+   ````
+   	const numberArray = [218, 99, 57, 80, 37, 243, 162, 141, 188, 54, 143, 243, 137, 50, 42, 52, 15, 56, 9, 11, 54, 3, 5, 61];
+   ````
+2. Find Leaf Node in Binary Tree
    
    ````
    Leaf Nodes in tree :  [
@@ -39,4 +42,10 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	Print Maximum vlaue in tree :  243
 	Print Maximum Height in tree :  7
 	Print Minmum Height in tree :  1
+   ````
+3. InOrder Traversal demo : 
+   ````
+   InOrder Traversal :  [
+    	3,   5,   9,  11,  15,  37,  42, 50,  52,  54,  54,  56,  57,  61, 80,  99, 137, 141, 143, 162, 188, 218, 243, 243 ]
+	Left ->  Root  -> Right
    ````
