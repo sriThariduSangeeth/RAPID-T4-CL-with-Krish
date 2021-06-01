@@ -12,4 +12,8 @@ binarytree.push(3);
 binarytree.push(5);
 binarytree.push(61);
 
-binarytree.displayLeafNodes(binarytree.getRootNode());
+console.log("Leaf Nodes in tree : ", binarytree.displayLeafNodes());
+
+console.log("Print Minmum vlaue in tree : ", binarytree.findMinValue());
+
+console.log("Print Maximum vlaue in tree : ", binarytree.findMaxValue());

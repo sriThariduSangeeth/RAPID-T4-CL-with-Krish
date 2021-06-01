@@ -39,18 +39,46 @@ class BinarySearchTree {
         return this.root;
     }
 
-    displayLeafNodes(node) {
+    displayLeafNodes() {
+
+        let arr = new Array();
+        let current = this.root;
+        if (this.root !== null) {
+            this.findLeafNode(current, arr);
+            return arr;
+        } else {
+            return arr;
+        }
+    }
+
+    findLeafNode(node, arr) {
         if (node != null) {
             if (node.left == null && node.right == null) {
-                console.log(node.value);
+                arr.push(node.value);
             }
             if (node.left != null) {
-                this.displayLeafNodes(node.left);
+                this.findLeafNode(node.left, arr);
             }
             if (node.right != null) {
-                this.displayLeafNodes(node.right);
+                this.findLeafNode(node.right, arr);
             }
         }
+    }
+
+    findMinValue() {
+        let current = this.root;
+        while (current.left !== null) {
+            current = current.left;
+        }
+        return current.value;
+    }
+
+    findMaxValue() {
+        let current = this.root;
+        while (current.right !== null) {
+            current = current.right;
+        }
+        return current.value;
     }
 }
 
