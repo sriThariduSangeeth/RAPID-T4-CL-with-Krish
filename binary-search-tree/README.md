@@ -53,7 +53,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	Left ->  Root  -> Right
    ````
    <p align="center">
-   <img width="350" height="200" src="https://miro.medium.com/max/500/0*gIonhJjvlBE-SBlv.gif">
+   <img width="400" height="350" src="https://miro.medium.com/max/500/0*gIonhJjvlBE-SBlv.gif">
    </p>
    
 4. PreOrder Traversal Demo :
@@ -63,7 +63,7 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	Root ->  Left  -> Right
    ````
    <p align="center">
-   <img  width="350" height="200"  src="https://miro.medium.com/max/500/0*PaTE01wN4ToA40Co.gif">
+   <img  width="400" height="350"  src="https://miro.medium.com/max/500/0*PaTE01wN4ToA40Co.gif">
    </p>
    
 5. PostOrder Traversal Demo :
@@ -73,5 +73,5 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	Left  -> Right -> Root
    ````
    <p align="center">
-   <img  width="350" height="200"  src="https://miro.medium.com/max/500/0*najybdVtx7wCsu_u.gif">
+   <img  width="400" height="350"  src="https://miro.medium.com/max/500/0*najybdVtx7wCsu_u.gif">
    </p>
