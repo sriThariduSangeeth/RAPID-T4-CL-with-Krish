@@ -43,9 +43,18 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	Print Maximum Height in tree :  7
 	Print Minmum Height in tree :  1
    ````
+
+#### Depth First Search in Binary Tree
+
 3. InOrder Traversal demo : 
    ````
    InOrder Traversal :  [
-    	3,   5,   9,  11,  15,  37,  42, 50,  52,  54,  54,  56,  57,  61, 80,  99, 137, 141, 143, 162, 188, 218, 243, 243 ]
+    	3, 5, 9, 11, 15, 37, 42, 50, 52, 54, 54, 56, 57, 61, 80, 99, 137, 141, 143, 162, 188, 218, 243, 243 ]
 	Left ->  Root  -> Right
+   ````
+4. PreOrder Traversal demo :
+   ````
+   PreOrder Traversal :  [
+  	218, 99, 57, 37, 15, 9, 3, 5, 11, 54, 50, 42, 52, 56, 54, 80, 61, 162, 141, 137, 143,188, 243, 243 ]
+	Root ->  Left  -> Right
    ````
