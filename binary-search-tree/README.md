@@ -28,3 +28,15 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
 	npm start
 	````
 
+1. Find Leaf Node in Binary Tree
+   
+   ````
+   Leaf Nodes in tree :  [
+	   5,  11,  42,  52,  54,
+	  61, 137, 143, 188, 243
+	]
+	Print Minmum vlaue in tree :  3
+	Print Maximum vlaue in tree :  243
+	Print Maximum Height in tree :  7
+	Print Minmum Height in tree :  1
+   ````
