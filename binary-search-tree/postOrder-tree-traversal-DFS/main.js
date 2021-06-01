@@ -3,14 +3,12 @@ const { traversePostOrder } = require("./post-order-travers");
 
 
 const binarytree = new BinarySearchTree();
-binarytree.push(52);
-binarytree.push(15);
-binarytree.push(56);
-binarytree.push(9);
-binarytree.push(11);
-binarytree.push(54);
-binarytree.push(3);
-binarytree.push(5);
-binarytree.push(61);
+const numberArray = [218, 99, 57, 80, 37, 243, 162, 141, 188, 54, 143, 243, 137, 50, 42, 52, 15, 56, 9, 11, 54, 3, 5, 61];
 
-traversePostOrder(binarytree.getRootNode());
+numberArray.forEach(number => {
+    binarytree.push(number);
+});
+
+
+console.log("PreOrder Traversal : ", traversePostOrder(binarytree.getRootNode()));
+console.log("Left  -> Right -> Root ");

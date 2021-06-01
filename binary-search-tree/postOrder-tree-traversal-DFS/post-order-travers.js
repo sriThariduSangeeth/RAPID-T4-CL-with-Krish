@@ -1,8 +1,18 @@
 const traversePostOrder = (node) => {
+
+    let arr = new Array();
+
     if (node != null) {
-        node.left && traversePostOrder(node.left);
-        node.right && traversePostOrder(node.right);
-        console.log(node.value);
+        travers(node, arr);
+        return arr;
+    }
+}
+
+const travers = (node, arr) => {
+    if (node != null) {
+        node.left && travers(node.left, arr);
+        node.right && travers(node.right, arr);
+        arr.push(node.value);
     }
 }
 
