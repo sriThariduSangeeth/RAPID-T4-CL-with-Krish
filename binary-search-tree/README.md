@@ -52,6 +52,10 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
     	3, 5, 9, 11, 15, 37, 42, 50, 52, 54, 54, 56, 57, 61, 80, 99, 137, 141, 143, 162, 188, 218, 243, 243 ]
 	Left ->  Root  -> Right
    ````
+   <p align="center">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Inorder-traversal.gif"  width="513" height="398">
+   </p>
+   
 4. PreOrder Traversal Demo :
    ````
    PreOrder Traversal :  [
