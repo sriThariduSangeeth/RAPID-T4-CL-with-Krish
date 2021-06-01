@@ -5,7 +5,6 @@
 
 ### Write a Programme :hourglass_flowing_sand:
 
-- To revers a number without using strig functions.
 - To print All leaf nodes of a binary tree where depth is grater than 10
 - To demostrate PreOrder traversal of a binary tree.
 - To demonstrate InOrder traversal of a binary tree.
