@@ -14,4 +14,5 @@ binarytree.push(5);
 binarytree.push(61);
 
 const rootNode = binarytree.getRootNode();
-inordertravers(rootNode);
+console.log("InOrder Traversal : ", inordertravers(rootNode));
+console.log("Left ->  Root  -> Right");

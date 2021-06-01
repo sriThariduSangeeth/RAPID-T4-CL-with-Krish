@@ -1,8 +1,16 @@
 const inordertravers = (node) => {
+    let arr = new Array();
     if (node != null) {
-        node.left && inordertravers(node.left);
-        console.log(node.value);
-        node.right && inordertravers(node.right);
+        traverse(node, arr);
+        return arr;
+    };
+}
+
+const traverse = (node, arr) => {
+    if (node != null) {
+        node.left && traverse(node.left, arr);
+        arr.push(node.value);
+        node.right && traverse(node.right, arr);
     };
 }
 
