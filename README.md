@@ -24,23 +24,27 @@
 	  Below Four practical Questions have implemented in single NodeJS server using Express
 	````
 	
-3. [find-anagram](./find-anagram)
+3. [Find Anagram](./find-anagram)
     - [ ] Java
     - [x] JavaScript
 	<p> Using two stirng input need to find these input are angram or not </p>
-4. [find-missing-number](./find-missing-number)
+4. [Find Missing Number](./find-missing-number)
     - [ ] Java
     - [x] JavaScript
 	<p> Using mixed sequence number array need to find missing number in given number array </p>
-5. [find-third-largest-number](./find-third-largest-number)
+5. [Find Third Largest Number](./find-third-largest-number)
     - [ ] Java
     - [x] JavaScript
 	<p> Using mixed int array need to find 3rd larger number in given number array </p>
-6. [letter-repitition-of-sentence](./letter-repitition-of-sentence)
+6. [Letter Repitition of Sentence](./letter-repitition-of-sentence)
     - [ ] Java
     - [x] JavaScript
 	<p> Using given sentence need to count how meny repitition in each letter.</p>
-7. [number-reverse-without-string-fun](./number-reverse-without-string-fun)
+7. [Number Reverse without String Functions](./number-reverse-without-string-fun)
     - [ ] Java
     - [x] JavaScript
 	<p>User can insert single number or number of array. then each numbers reverse and display</p>	
+8.[Binary Search Tree](./binary-search-tree)
+   - [ ] Java
+   - [x] JavaScript
+   	<p>Revers a number or each number of array without using string function. </p>
