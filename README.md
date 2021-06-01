@@ -45,6 +45,9 @@
     - [x] JavaScript
 	<p>User can insert single number or number of array. then each numbers reverse and display</p>	
 8. [Binary Search Tree](./binary-search-tree)
-   - [ ] Java
-   - [x] JavaScript
-   	<p>Revers a number or each number of array without using string function. </p>
+    - Print all leaf nodes
+    - Inorder tree traversal - DFS
+    - PreOrder tree traversal - DFS
+    - PostOrder tree traversal - DFS
+      - [ ] Java
+      - [x] JavaScript
