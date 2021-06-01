@@ -44,7 +44,7 @@
     - [ ] Java
     - [x] JavaScript
 	<p>User can insert single number or number of array. then each numbers reverse and display</p>	
-8.[Binary Search Tree](./binary-search-tree)
+8. [Binary Search Tree](./binary-search-tree)
    - [ ] Java
    - [x] JavaScript
    	<p>Revers a number or each number of array without using string function. </p>
