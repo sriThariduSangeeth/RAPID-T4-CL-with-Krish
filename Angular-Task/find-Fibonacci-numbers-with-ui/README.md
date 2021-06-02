@@ -1,5 +1,6 @@
 # Find Fibonacci Numbers
 
-<p align="left">
-    <img src="../assest/fullview.png" alt="" height="18px">
+<p align="center">
+ <img src="../assest/fullview.png"
+alt="App Screenshots" height="300" width="600">
 </p>
