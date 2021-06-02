@@ -1,0 +1,10 @@
+.card {
+    width: 40rem;
+    align-items: center;
+    background: #f4f2f7;
+    border-radius: 8px;
+}
+
+h6 {
+    color: rgba(1, 44, 1, 0.801);
+}

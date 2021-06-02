@@ -1,7 +1,7 @@
 const Request = require("./input/request");
 const { findRepetition } = require("./repitition");
 
-let word = "These days I am studying";
+let word = "  a  b   c   ";
 // create new request obj
 const reqword = new Request(word);
 //pass request obj to findRepetition method and get response

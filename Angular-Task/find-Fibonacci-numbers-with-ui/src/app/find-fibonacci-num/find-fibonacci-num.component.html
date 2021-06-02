@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <h1>Fibonacci Number</h1>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Genarate Fibonacci Sequence</h5>
+                <p class="card-text">You need to enter first and last of expected Sequence
+                </p>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">From</span>
+                    </div>
+                    <input type="number" class="form-control" placeholder="First number" #first>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">To</span>
+                    </div>
+                    <input type="number" class="form-control" placeholder="Last number" #last>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-success" (click)="genarateSequence(first.value , last.value)">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Calculate Fibonacci according to given place</h5>
+                <p class="card-text">When you enter index, this will Calculate and display Fibonacci number according to give place.
+                </p>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">number</span>
+                    </div>
+                    <input type="number" class="form-control" placeholder="Enter index of Fibonacci" [(ngModel)]="fibNumber">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-success" (click)="calFibonacci()">Submit</button>
+                    </div>
+                </div>
+                <h6>{{fibNumber | numberSuffix}} Fibonacci number is :</h6>
+                <h4>{{outFibNumber}}</h4>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Calculate index of place to given Fibonacci</h5>
+                <p class="card-text">You have to enter right Fibonacci number. then this will Calculate and display what is place of given Fibonacci.
+                </p>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">number</span>
+                    </div>
+                    <input type="number" class="form-control" placeholder="Enter Fibonacci Number" [(ngModel)]="fibIndex">
+                    <button type="button" class="btn btn-success" (click)="calIndexOfFibonacci()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
