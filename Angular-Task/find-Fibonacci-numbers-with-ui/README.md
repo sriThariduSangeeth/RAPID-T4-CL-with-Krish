@@ -2,5 +2,5 @@
 
 <p align="center">
  <img src="../../assest/fullview.png"
-alt="App Screenshots" height="300" width="600">
+alt="App Screenshots" height="800" width="600">
 </p>
