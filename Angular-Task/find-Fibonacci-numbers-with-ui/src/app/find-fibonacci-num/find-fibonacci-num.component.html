@@ -12,14 +12,17 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">From</span>
                     </div>
-                    <input type="number" class="form-control" placeholder="First number" #first>
+                    <input type="number" class="form-control" placeholder="First number" #first value="{{arrFirst}}">
                     <div class="input-group-prepend">
                         <span class="input-group-text">To</span>
                     </div>
-                    <input type="number" class="form-control" placeholder="Last number" #last>
+                    <input type="number" class="form-control" placeholder="Last number" #last value="{{arrLast}}">
                     <div class="input-group-append">
                         <button type="button" class="btn btn-success" (click)="genarateSequence(first.value , last.value)">Submit</button>
                     </div>
+                </div>
+                <div *ngFor="let number of outFibMAp; let i = index">
+                    <h4>{{i}} -> {{number}}</h4>
                 </div>
             </div>
         </div>
@@ -33,7 +36,7 @@
                 </p>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">number</span>
+                        <span class="input-group-text">Index</span>
                     </div>
                     <input type="number" class="form-control" placeholder="Enter index of Fibonacci" [(ngModel)]="fibNumber">
                     <div class="input-group-append">
@@ -59,6 +62,9 @@
                     <input type="number" class="form-control" placeholder="Enter Fibonacci Number" [(ngModel)]="fibIndex">
                     <button type="button" class="btn btn-success" (click)="calIndexOfFibonacci()">Submit</button>
                 </div>
+                <h6 *ngIf="indexRes">{{fibIndex}} Fibonacci number is :</h6>
+                <h4 *ngIf="indexRes">{{outFibIndex | numberSuffix }} index in Fibonacci Sequence</h4>
+                <h4 *ngIf="!indexRes">{{outFibIndex}}</h4>
             </div>
         </div>
     </div>
