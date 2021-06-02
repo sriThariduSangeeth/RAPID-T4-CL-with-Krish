@@ -52,15 +52,26 @@ https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish.git
     	3, 5, 9, 11, 15, 37, 42, 50, 52, 54, 54, 56, 57, 61, 80, 99, 137, 141, 143, 162, 188, 218, 243, 243 ]
 	Left ->  Root  -> Right
    ````
+   <p align="center">
+   <img width="400" height="350" src="https://miro.medium.com/max/500/0*gIonhJjvlBE-SBlv.gif">
+   </p>
+   
 4. PreOrder Traversal Demo :
    ````
    PreOrder Traversal :  [
             218, 99, 57, 37, 15, 9, 3, 5, 11, 54, 50, 42, 52, 56, 54, 80, 61, 162, 141, 137, 143,188, 243, 243 ]
 	Root ->  Left  -> Right
    ````
+   <p align="center">
+   <img  width="400" height="350"  src="https://miro.medium.com/max/500/0*PaTE01wN4ToA40Co.gif">
+   </p>
+   
 5. PostOrder Traversal Demo :
    ````
    PreOrder Traversal :  [
     	5, 3, 11, 9, 15, 42, 52, 50, 54, 56, 54, 37, 61, 80, 57, 137, 143, 141, 188, 162, 99, 243, 243, 218 ]
 	Left  -> Right -> Root
    ````
+   <p align="center">
+   <img  width="400" height="350"  src="https://miro.medium.com/max/500/0*najybdVtx7wCsu_u.gif">
+   </p>
