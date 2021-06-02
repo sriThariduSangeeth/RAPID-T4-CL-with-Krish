@@ -21,9 +21,12 @@
                         <button type="button" class="btn btn-success" (click)="genarateSequence(first.value , last.value)">Submit</button>
                     </div>
                 </div>
-                <div *ngFor="let number of outFibMAp; let i = index">
-                    <h4>{{i}} -> {{number}}</h4>
+                <div class="listcus">
+                    <ul class="list-group" *ngFor="let number of outFibMAp; let i = index">
+                        <li class="list-group-item">{{number}}</li>
+                    </ul>
                 </div>
+
             </div>
         </div>
     </div>
