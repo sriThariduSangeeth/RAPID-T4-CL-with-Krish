@@ -52,6 +52,6 @@
       - [ ] Java
       - [x] JavaScript
 9. [Angular Tasks](./Angular-Task)
-    - [find-Fibonacci-numbers-with-ui](./Angular-Task/find-Fibonacci-numbers-with-ui)
+    - [Find Fibonacci Numbers with UI](./Angular-Task/find-Fibonacci-numbers-with-ui)
        - [x] Angular 11
        - [x] TypeScript
