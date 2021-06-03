@@ -1,7 +1,6 @@
 # Find Fibonacci Numbers
 
-<p align="left">
-  <a href="LICENSE.md">
-    <img src="../assest/fullview.png" alt="License: MIT" height="18">
-  </a>
+<p align="center">
+ <img src="../../assest/fullview.png"
+alt="App Screenshots" height="800" width="600">
 </p>
