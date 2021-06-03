@@ -12,18 +12,18 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">From</span>
                     </div>
-                    <input type="number" class="form-control" placeholder="First number" #first value="{{arrFirst}}">
+                    <input type="number" class="form-control" placeholder="First number" #first [value]="arrFirst">
                     <div class="input-group-prepend">
                         <span class="input-group-text">To</span>
                     </div>
-                    <input type="number" class="form-control" placeholder="Last number" #last value="{{arrLast}}">
+                    <input type="number" class="form-control" placeholder="Last number" #last [value]="arrLast">
                     <div class="input-group-append">
                         <button type="button" class="btn btn-success" (click)="genarateSequence(first.value , last.value)">Submit</button>
                     </div>
                 </div>
                 <div class="listcus">
-                    <ul class="list-group" *ngFor="let number of outFibMAp; let i = index">
-                        <li class="list-group-item">{{number}}</li>
+                    <ul class="list-group" *ngFor="let number of outFibMAp">
+                        <li class="list-group-item">{{number.index}} => {{number.fib}}</li>
                     </ul>
                 </div>
 

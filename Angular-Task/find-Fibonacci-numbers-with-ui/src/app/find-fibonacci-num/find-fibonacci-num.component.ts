@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FibonacciNum } from '../model/fibonacci';
 
 @Component({
   selector: 'app-find-fibonacci-num',
@@ -15,7 +16,7 @@ export class FindFibonacciNumComponent implements OnInit {
 
   outFibNumber: any = 0;
   outFibIndex: any = 0;
-  outFibMAp = new Array<number>();
+  outFibMAp = new Array<FibonacciNum>();
   indexRes: boolean = true;
 
   constructor() { }
@@ -24,9 +25,18 @@ export class FindFibonacciNumComponent implements OnInit {
   }
 
   genarateSequence(first: string, last: string) {
+    this.outFibMAp = [];
     this.arrFirst = +first;
     this.arrLast = +last;
-    this.outFibMAp.push(...this.calculateArrayOfFibonacci(this.arrFirst, this.arrLast));
+    if (this.arrFirst < this.arrLast) {
+      //use method destructuring...
+      this.outFibMAp = [...this.calculateArrayOfFibonacci(this.arrFirst, this.arrLast)];
+    } else {
+      window.alert("Invalid Input !");
+      this.arrFirst = 0;
+      this.arrLast = 0;
+    }
+
   }
 
   calFibonacci() {
@@ -40,71 +50,67 @@ export class FindFibonacciNumComponent implements OnInit {
   }
 
   calIndexOfFibonacci() {
-    if (this.isFibonacci(this.fibIndex)) {
-      console.log(this.isFibonacci(this.fibIndex));
+    let res = this.calculateIndexOfFibonacci(this.fibIndex);
+    if (res.fib == this.fibIndex) {
       this.indexRes = true;
-      this.outFibIndex = this.calculateIndexOfFibonacci(this.fibIndex);
+      this.outFibIndex = res.index;
     } else {
       this.indexRes = false;
       this.outFibIndex = "Invalid input. This is not Fibonacci Nmber";
     }
-
-
   }
 
+  /**
+   * 
+   * @param intput Index of fib
+   * @returns Fibonacci number
+   */
   calculateFibonacci(intput: number): number {
 
-    // let fibonacciArry = new Array(intput + 2);
-    // fibonacciArry[0] = 0;
-    // fibonacciArry[1] = 1;
-    // for (let i = 2; i <= intput; i++) {
-    //   console.log(fibonacciArry[i]);
+    let fibonacciArry = new Array(intput + 2);
+    fibonacciArry[0] = 0;
+    fibonacciArry[1] = 1;
+    for (let i = 2; i <= intput; i++) {
+      fibonacciArry[i] = fibonacciArry[i - 1] + fibonacciArry[i - 2];
+    }
+    return fibonacciArry[intput];
 
-    //   fibonacciArry[i] = fibonacciArry[i - 1] + fibonacciArry[i - 2];
-    //   console.log(fibonacciArry[i]);
-    // }
-    // return fibonacciArry[intput];
-
-    if (intput <= 1)
+    /**
+    if (intput <= 1) {
       return intput;
-
+    }
+    //this method recurrence will create recursion tree
+    //this is a bad implementation
     return this.calculateFibonacci(intput - 1) + this.calculateFibonacci(intput - 2);
+     */
   }
 
-  calculateIndexOfFibonacci(input: number): number {
+  /**
+   * 
+   * @param input FibonacciNumber 
+   * @returns index of fib
+   */
+  calculateIndexOfFibonacci(input: number): FibonacciNum {
 
     let result = 1;
-    let fib1 = 0;
-    let fib2 = 1;
-    let fib3 = 1;
-
-    if (this.fibIndex <= 1) {
-      return this.fibIndex;
-    }
-
-    while (fib3 < input) {
-      fib3 = fib1 + fib2;
-      result++;
-      fib1 = fib2;
-      fib2 = fib3;
-    }
-    return result;
-  }
-
-  isFibonacci(input: number) {
     let firstTerm = 0;
     let secondTerm = 1;
-    let thirdTerm = 0;
+    let thirdTerm = 1;
+
+    if (input <= 1) {
+      return new FibonacciNum(input, input);
+    }
+
     while (thirdTerm < input) {
       thirdTerm = firstTerm + secondTerm;
-      firstTerm = secondTerm;
-      secondTerm = thirdTerm;
+      //use method destructuring...To swap veriables.
+      [firstTerm, secondTerm] = [secondTerm, thirdTerm];
+      result++;
     }
-    if (thirdTerm == input) {
-      return true;
-    }
-    return false;
+
+    return new FibonacciNum(thirdTerm, result);
   }
+
 
   /**
    * //TODO
@@ -112,11 +118,11 @@ export class FindFibonacciNumComponent implements OnInit {
    * @param last 
    * @returns 
    */
-  calculateArrayOfFibonacci(first: number, last: number): number[] {
-    let fibonacciArry = new Array();
+  calculateArrayOfFibonacci(first: number, last: number): FibonacciNum[] {
+    let fibonacciArry = new Array<FibonacciNum>();
 
     for (let i = first; i <= last; i++) {
-      fibonacciArry.push(this.calculateFibonacci(i));
+      fibonacciArry.push(new FibonacciNum(this.calculateFibonacci(i), i));
     }
     return fibonacciArry;
   }
