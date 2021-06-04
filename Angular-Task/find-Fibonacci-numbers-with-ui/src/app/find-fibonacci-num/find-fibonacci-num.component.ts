@@ -18,6 +18,7 @@ export class FindFibonacciNumComponent implements OnInit {
   outFibIndex: any = 0;
   outFibMAp = new Array<FibonacciNum>();
   indexRes: boolean = true;
+  indexCollec: number = 0;
 
   constructor() { }
 
@@ -35,6 +36,7 @@ export class FindFibonacciNumComponent implements OnInit {
       window.alert("Invalid Input !");
       this.arrFirst = 0;
       this.arrLast = 0;
+      this.indexCollec = 0;
     }
 
   }
@@ -120,9 +122,10 @@ export class FindFibonacciNumComponent implements OnInit {
    */
   calculateArrayOfFibonacci(first: number, last: number): FibonacciNum[] {
     let fibonacciArry = new Array<FibonacciNum>();
-
     for (let i = first; i <= last; i++) {
-      fibonacciArry.push(new FibonacciNum(this.calculateFibonacci(i), i));
+      let res = this.calculateFibonacci(i);
+      fibonacciArry.push(new FibonacciNum(res, i));
+      this.indexCollec += res;
     }
     return fibonacciArry;
   }
