@@ -1,13 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './async-app/app.controller';
 import { AppService } from './async-app/app.service';
-import { AnagramService } from './async-service-helper/anagram.service';
-import { LargeNumberService } from './async-service-helper/large-number.service';
-import { RepititionService } from './async-service-helper/repitition.service';
+import { QuickSort } from './common/quick-sort';
 
 @Module({
   imports: [],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService , QuickSort],
 })
 export class AppModule {}

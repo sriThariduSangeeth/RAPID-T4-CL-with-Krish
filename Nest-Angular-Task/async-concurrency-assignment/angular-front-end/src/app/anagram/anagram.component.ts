@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AsyncApiService } from '../services/async-api.service';
 
 @Component({
   selector: 'app-anagram',
@@ -7,17 +8,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnagramComponent implements OnInit {
 
-  paragraph: string = "";
-  respArray: string[] = [];
-  constructor() { }
+  arrFirst: string = "";
+  arrSecond: string = "";
+  response: boolean = false;
+
+  constructor(private readonly apiService : AsyncApiService) { }
 
   ngOnInit(): void {
+    
   }
 
-  submitParagraph() {
-    const regex = new RegExp(/[aeiou]/i);
-    // we can do this as one line code in ES6
-    this.respArray = [...this.paragraph.split(/[ ,.]+/).filter(word => regex.test(word)).sort()];
+  submitWords(firstWord: string , secondWord: string) {
+    
+    this.arrFirst = firstWord;
+    this.arrSecond = secondWord;
+
+    this.apiService.findAnagram({firstWord: firstWord , secondWord: secondWord}).then( res =>{
+      this.response = res
+
+    }).catch(error =>{
+      console.log(error);
+      
+    });
+    
+    
   }
 
 }

@@ -3,23 +3,24 @@
         <div class="row">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Find Vowels and sort according to Natural order (A-Z)</h5>
-                    <h6>Vowels : A, E, I, O, and U</h6>
-                    <p class="card-text">You have to type or paste a paragraph in this text area. then click submit button.
+                    <h5 class="card-title">Genarate Fibonacci Sequence</h5>
+                    <p class="card-text">You need to enter first and last of expected Sequence
                     </p>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Paragraph</span>
+                            <span class="input-group-text">Array</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="number array with comma separate" #first [value]="arrFirst">
+                    </div>
+                    <div class="input-group mb-3 align-items-start">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Index</span>
+                        </div>
+                        <input type="number" class="form-control" placeholder="Index number" #last [value]="arrLast">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-success" >Submit</button>
                         </div>
                     </div>
-
-                    <div class="input-group mb-3">
-                        <textarea class="form-control" placeholder="type..." id="exampleFormControlTextarea1" rows="5" [(ngModel)]="paragraph"></textarea>
-                    </div>
-                    <div class="input-group mb-3 flex-row-reverse">
-                        <button type="button" class="btn btn-success" (click)="submitParagraph()">Submit</button>
-                    </div>
-
                 </div>
             </div>
         </div>
