@@ -3,7 +3,7 @@
 
 | Anagram                   | Large Number               | Repitition                   |
 | ------------------------- | -------------------------- | ---------------------------- |
-| [](../../assest/anagram.png) | [](../../assest/largenum.png) | [](../../assest/repitition.png) |
+| [](../RAPID-T4-CL-with-Krish/assest/anagram.png) | [](../../assest/largenum.png) | [](../../assest/repitition.png) |
 
 
 <h1>Thank You ! <h1>
