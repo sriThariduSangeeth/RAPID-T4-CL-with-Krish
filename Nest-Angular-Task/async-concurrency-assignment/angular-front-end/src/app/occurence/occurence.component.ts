@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AsyncApiService } from '../services/async-api.service';
 
 @Component({
   selector: 'app-occurence',
@@ -7,9 +8,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OccurenceComponent implements OnInit {
 
-  constructor() { }
+  paragraph!: string;
+  respArray!:any;
+  type: string = "summer";
+
+  constructor(private readonly apiService: AsyncApiService) { }
 
   ngOnInit(): void {
   }
 
+  submitParagraph(){
+   if(this.paragraph){
+    this.apiService.findRepititionOfSentence(this.paragraph, this.type)
+    .then(res =>{
+      this.respArray = res;
+        console.log(res);
+        
+    }).catch( error => {
+      console.log(error);
+      
+    });
+   }
+  }
 }

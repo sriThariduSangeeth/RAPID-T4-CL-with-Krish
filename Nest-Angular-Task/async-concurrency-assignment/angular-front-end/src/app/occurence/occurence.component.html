@@ -3,13 +3,21 @@
         <div class="row">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Find Vowels and sort according to Natural order (A-Z)</h5>
-                    <h6>Vowels : A, E, I, O, and U</h6>
+                    <h1 class="card-title">Find Repitition in given paragraph</h1>
                     <p class="card-text">You have to type or paste a paragraph in this text area. then click submit button.
                     </p>
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
+                    <div class="row input-group mb-3">
+                        <div class="col-2 input-group-prepend align-self-start">
                             <span class="input-group-text">Paragraph</span>
+                        </div>
+                        <div class="col-6" >
+
+                        </div>
+                        <div class="col-4 btn-group align-self-end">
+                            <select class="btn btn-primary ">
+                                <option >Full</option>
+                                <option value="1">Summary</option>
+                              </select>
                         </div>
                     </div>
 
@@ -26,21 +34,21 @@
                 <div class="card-body">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">Sorted Words (A-Z)</span>
+                            <span class="input-group-text">Repitition letters Report</span>
                         </div>
                     </div>
                     <div class="input-group mb-3">
                         <table class="table table-striped">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">word</th>
+                                    <th scope="col">Letter</th>
+                                    <th scope="col">Count</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr *ngFor="let word of respArray; let i = index;">
-                                    <th scope="row">{{i}}</th>
-                                    <td>{{word}}</td>
+                                <tr *ngFor="let word of respArray | keyvalue; let i = index;">
+                                    <th scope="row">{{word.key}}</th>
+                                    <td>{{word.value}}</td>
                                 </tr>
                             </tbody>
                         </table>
