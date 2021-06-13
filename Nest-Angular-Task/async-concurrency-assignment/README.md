@@ -7,3 +7,6 @@
 
 
 <h1>Thank You ! <h1>
+
+   <img src="../../assest/anagram.png"
+alt="App Screenshots" height="800" width="600">
