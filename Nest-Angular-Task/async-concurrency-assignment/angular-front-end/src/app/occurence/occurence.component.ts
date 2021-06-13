@@ -9,8 +9,8 @@ import { AsyncApiService } from '../services/async-api.service';
 export class OccurenceComponent implements OnInit {
 
   paragraph!: string;
-  respArray!:any;
-  type: string = "summer";
+  respArray = {};
+  type: string = "full";
 
   constructor(private readonly apiService: AsyncApiService) { }
 
@@ -21,9 +21,11 @@ export class OccurenceComponent implements OnInit {
    if(this.paragraph){
     this.apiService.findRepititionOfSentence(this.paragraph, this.type)
     .then(res =>{
+      if(res[" "]){
+        res.space = res[" "];
+        delete res[" "];
+      }
       this.respArray = res;
-        console.log(res);
-        
     }).catch( error => {
       console.log(error);
       

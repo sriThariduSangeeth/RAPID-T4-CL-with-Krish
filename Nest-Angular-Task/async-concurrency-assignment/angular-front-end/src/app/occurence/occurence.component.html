@@ -1,22 +1,22 @@
 <div class="container text-card">
     <div class="d-flex justify-content-center">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="card">
                 <div class="card-body">
                     <h1 class="card-title">Find Repitition in given paragraph</h1>
                     <p class="card-text">You have to type or paste a paragraph in this text area. then click submit button.
                     </p>
                     <div class="row input-group mb-3">
-                        <div class="col-2 input-group-prepend align-self-start">
+                        <div class="col-4 input-group-prepend align-self-start">
                             <span class="input-group-text">Paragraph</span>
                         </div>
-                        <div class="col-6" >
+                        <div class="col" >
 
                         </div>
                         <div class="col-4 btn-group align-self-end">
-                            <select class="btn btn-primary ">
-                                <option >Full</option>
-                                <option value="1">Summary</option>
+                            <select [(ngModel)]="type" class="btn btn-primary ">
+                                <option value="full">Full</option>
+                                <option value="summer">Summary</option>
                               </select>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
 
                 </div>
             </div>
-            <div class="card">
+            <div *ngIf="respArray" class="card">
                 <div class="card-body">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
