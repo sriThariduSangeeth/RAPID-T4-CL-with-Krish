@@ -3,7 +3,7 @@
 
 | Anagram                   | Large Number               | Repitition                   |
 | ------------------------- | -------------------------- | ---------------------------- |
-| [](https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish/blob/master/assest/anagram.png) | [](https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish/blob/master/assest/largenum.png) | [](https://github.com/sriThariduSangeeth/RAPID-T4-CL-with-Krish/blob/master/assest/repitition.png) |
+| [](../anagram.png) | [](../largenum.png) | [](../repitition.png) |
 
 
 <h1>Thank You ! <h1>
