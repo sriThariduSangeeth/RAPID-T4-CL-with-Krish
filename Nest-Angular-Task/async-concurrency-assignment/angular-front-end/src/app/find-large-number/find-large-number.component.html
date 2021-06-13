@@ -1,26 +1,36 @@
 <div class="container text-card">
     <div class="d-flex justify-content-center">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Genarate Fibonacci Sequence</h5>
-                    <p class="card-text">You need to enter first and last of expected Sequence
+                    <h1 class="card-title">Find Large Number</h1>
+                    <p class="card-text">You need to enter comma separate number array
                     </p>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Array</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="number array with comma separate" #first [value]="arrFirst">
+                        <!-- (ngModelChange)="onArrayChange($event.target.value)" -->
+                        <input type="text" class="form-control" placeholder="number array with comma separate" 
+                        [(ngModel)]="numberArray" (ngModelChange)="onArrayChange($event)">
                     </div>
                     <div class="input-group mb-3 align-items-start">
                         <div class="input-group-prepend">
                             <span class="input-group-text">Index</span>
                         </div>
-                        <input type="number" class="form-control" placeholder="Index number" #last [value]="arrLast">
+                        <input type="number" class="form-control" placeholder="Index number" [(ngModel)]="indexOfArray"
+                        (ngModelChange)="onIndexChange($event)">
                         <div class="input-group-append">
-                            <button type="button" class="btn btn-success" >Submit</button>
+                            <button type="button" class="btn btn-success" (click)="submitArray()">Submit</button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div *ngIf="resNumber && submitFlag" class="card">
+                <div class="card-body">
+                    <h2>{{indexOfArray | numberSuffix}} biggest value is {{resNumber}}</h2>
+                    <h3>Sorted number Array : </h3>
+                    <p>[ {{resArray}} ]</p>
                 </div>
             </div>
         </div>

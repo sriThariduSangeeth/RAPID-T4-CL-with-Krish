@@ -38,8 +38,9 @@ export class AppService {
     }
     return new Observable(observer => {
       const sortarr =  this.quickSort.sort(numberArray);
-
-      observer.next({number : sortarr[index- 1]});
+      observer.next({
+        sortedArray : sortarr,
+        number : sortarr[index- 1]});
       observer.complete();
     });
 

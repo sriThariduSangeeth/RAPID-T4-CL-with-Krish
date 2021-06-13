@@ -14,6 +14,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AsyncApiService } from './services/async-api.service';
 import { OccurenceComponent } from './occurence/occurence.component';
+import { NumberSuffixPipe } from './pipe/dateSuffix.pipe';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { OccurenceComponent } from './occurence/occurence.component';
     DashboardComponent,
     AnagramComponent,
     FindLargeNumberComponent,
-    OccurenceComponent
+    OccurenceComponent,
+    NumberSuffixPipe
   ],
   imports: [
     BrowserModule,
