@@ -1,0 +1,105 @@
+<div class="container">
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-md-9 offset-md-1 align-self-center">
+            <mat-card>
+
+                <mat-card-header>
+                    <mat-icon>drive_eta</mat-icon>
+                    <mat-card-title>Add New Pet</mat-card-title>
+                    <mat-card-subtitle>create new pet field</mat-card-subtitle>
+    
+                    
+                        <div class="col-auto">
+                            <button mat-raised-button  (click)="submit()" color="primary" type="submit">Submit</button>
+                        </div>
+                        
+                   
+                    
+                       
+                    
+                </mat-card-header>
+    
+                <mat-card-content  color="">
+                    <!-- <cdk-virtual-scroll-viewport > -->
+                    <div class="row">
+                        <p>
+                            <mat-form-field class="form-field" appearance="standard">
+                                <mat-label>First Name</mat-label>
+                                <input matInput placeholder="First Name" [(ngModel)]="afname">
+                                <button mat-button *ngIf="afname" matSuffix mat-icon-button aria-label="Clear" (click)="afname=''">
+                                    <mat-icon>close</mat-icon>
+                                </button>
+                                <mat-icon matSuffix *ngIf="!afname">portrait</mat-icon>
+                                <mat-hint>Rokcy Boy</mat-hint>
+                            </mat-form-field>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <mat-form-field class="form-field" appearance="standard">
+                                <mat-label>Pet Type</mat-label>
+                                <input matInput placeholder="First Name" [(ngModel)]="ptype">
+                                <button mat-button *ngIf="ptype" matSuffix mat-icon-button aria-label="Clear" (click)="ptype=''">
+                                    <mat-icon>close</mat-icon>
+                                </button>
+                                <mat-icon matSuffix *ngIf="!ptype">portrait</mat-icon>
+                                <mat-hint>Etc. : Dog</mat-hint>
+                            </mat-form-field>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <mat-form-field class="form-field" color="primary" appearance="fill">
+                                <mat-label>Pet Birth Day</mat-label>
+                                <input matInput (ngModelChange)="onChange()" [disabled]="edit_input"  [matDatepicker]="asd" [(ngModel)]="astartdate">
+                                <mat-datepicker-toggle matSuffix [for]="asd"></mat-datepicker-toggle>
+                                <mat-datepicker #asd color="primary"></mat-datepicker>
+                                <mat-hint>Today date : {{today | date}}</mat-hint>
+                            </mat-form-field>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <mat-form-field class="form-field" appearance="standard">
+                                <mat-label>Pet Breed</mat-label>
+                                <input matInput placeholder="First Name" [(ngModel)]="pbreed">
+                                <button mat-button *ngIf="pbreed" matSuffix mat-icon-button aria-label="Clear" (click)="pbreed=''">
+                                    <mat-icon>close</mat-icon>
+                                </button>
+                                <mat-icon matSuffix *ngIf="!pbreed">portrait</mat-icon>
+                                <mat-hint>Rottweiler</mat-hint>
+                            </mat-form-field>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <mat-form-field class="form-field" color="primary" appearance="fill">
+                                <mat-label>Pet Birth Day</mat-label>
+                                <input matInput (ngModelChange)="onChange()" [disabled]="edit_input"  [matDatepicker]="lvd" [(ngModel)]="lastcavdate">
+                                <mat-datepicker-toggle matSuffix [for]="lvd"></mat-datepicker-toggle>
+                                <mat-datepicker #lvd color="primary"></mat-datepicker>
+                                <mat-hint>Today date : {{today | date}}</mat-hint>
+                            </mat-form-field>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <mat-form-field class="form-field" color="primary" appearance="fill">
+                                <mat-label>Pet Birth Day</mat-label>
+                                <input matInput (ngModelChange)="onChange()" [disabled]="edit_input"  [matDatepicker]="nvd" [(ngModel)]="nextcavdate">
+                                <mat-datepicker-toggle matSuffix [for]="nvd"></mat-datepicker-toggle>
+                                <mat-datepicker #nvd color="primary"></mat-datepicker>
+                                <mat-hint>Today date : {{today | date}}</mat-hint>
+                            </mat-form-field>
+                        </p>
+                    </div>
+    
+                </mat-card-content>
+    
+            </mat-card>
+        </div>
+        
+
+    </div>
+</div>
