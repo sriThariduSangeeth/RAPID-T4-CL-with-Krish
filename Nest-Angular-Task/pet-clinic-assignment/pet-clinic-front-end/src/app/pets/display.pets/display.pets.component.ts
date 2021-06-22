@@ -1,8 +1,11 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { MatTableDataSource } from '@angular/material/table';
 import { Router } from '@angular/router';
+import { take } from 'rxjs/operators';
 import { Animal } from 'src/app/models/animal';
 import { AnimalService } from 'src/app/services/animal.service';
+import { AddEditPetsComponent } from '../add-edit.pets/add-edit.pets.component';
 
 export interface PeriodicElement {
   name: string;
@@ -35,7 +38,7 @@ export class DisplayPetsComponent implements OnInit , AfterViewInit{
   dataSource = new MatTableDataSource<Animal>();
   displayedColumns: string[] = ['name', 'type', 'birthDay','lastVacDate','nextVacDate', 'edit', 'delete'];
 
-  constructor(private readonly animalService : AnimalService , public router: Router){
+  constructor(private readonly animalService : AnimalService ,public dialog: MatDialog, public router: Router){
   }
 
   ngAfterViewInit(): void {
@@ -56,6 +59,24 @@ export class DisplayPetsComponent implements OnInit , AfterViewInit{
   }
 
   editVehicle(animal : Animal){
+    const dialogConfigs = new MatDialogConfig();
+    dialogConfigs.id = "Edit";
+    dialogConfigs.data = animal;
+
+    const dialogRef = this.dialog.open(AddEditPetsComponent, {
+      width: '70vw',
+      height: '70vh',
+      disableClose: true,
+      id: "Edit"
+    });
+
+    dialogRef.componentInstance.dialogConfigs = dialogConfigs;
+
+    dialogRef.afterClosed()
+      .pipe(take(1))
+      .subscribe(result => {
+        // this.getAllVehicleData(this.first);
+      });
 
   }
   

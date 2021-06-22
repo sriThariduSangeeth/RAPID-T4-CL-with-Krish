@@ -14,6 +14,7 @@ import { MatNativeDateModule, MatRippleModule } from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 
@@ -38,7 +39,8 @@ import { FormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatInputModule,
     MatRippleModule,
-    FormsModule
+    FormsModule,
+    MatDialogModule
   ],
   providers: [AnimalService]
 })

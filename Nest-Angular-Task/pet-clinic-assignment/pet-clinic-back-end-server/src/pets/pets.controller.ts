@@ -15,11 +15,13 @@ export class PetsController {
 
     @Put()
     public editAnimal(@Body() animal : Animal): Promise<Animal>{
+        console.log(animal);
+        
         return this.petService.updateAnimal(animal);
     }
 
     @Delete(':id')
-    public deleteAnimal(@Param('id') id : number): Promise<Animal>{
+    public deleteAnimal(@Param('id') id : string): Promise<Animal>{
         return this.petService.deleteAnimal(id);
     }
 
@@ -29,7 +31,7 @@ export class PetsController {
     }
 
     @Get(':id')
-    public getAnimalById(@Param('id') id: number): Promise<Animal>{
+    public getAnimalById(@Param('id') id: string): Promise<Animal>{
         return this.petService.getAnimalById(id);
     }
 }

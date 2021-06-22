@@ -13,7 +13,7 @@ export class PetsService {
         return this.petRepository.find();
     }
 
-    async getAnimalById(id:number):Promise<Animal>{
+    async getAnimalById(id:string):Promise<Animal>{
         return this.petRepository.findOne({id:id});
     }
 
@@ -25,7 +25,7 @@ export class PetsService {
         return this.petRepository.updatePetById(animal.id , animal);
     }
 
-    async deleteAnimal(id: number): Promise<any>{
+    async deleteAnimal(id: string): Promise<any>{
         return this.petRepository.delete({id: id});
     }
 

@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Optional } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
+import { MatDialogConfig, MatDialogRef } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import * as moment from 'moment';
 import { Animal } from 'src/app/models/animal';
@@ -12,6 +13,9 @@ import { AnimalService } from 'src/app/services/animal.service';
 })
 export class AddEditPetsComponent implements OnInit {
 
+  dialogConfigs!: MatDialogConfig;
+
+  petId:string = "";
   afname!:string;
   ptype!:string;
   pbreed!:string;
@@ -22,13 +26,29 @@ export class AddEditPetsComponent implements OnInit {
 
   edit_input: boolean = false;
 
-  constructor(private readonly animalservice: AnimalService){}
+  constructor(@Optional() public dialogRef: MatDialogRef<AddEditPetsComponent>,private readonly animalservice: AnimalService){}
 
   ngOnInit(): void {
+    console.log(this.dialogConfigs.id);
+    console.log(this.dialogConfigs.data);
+    this.setValue(this.dialogConfigs.data);
+    
+  }
+
+  setValue(data : Animal){
+
+    this.petId = data.id!;
+    this.afname = data.name;
+    this.ptype = data.type;
+    this.pbreed = data.breed;
+    this.astartdate = data.birthDay;
+    this.lastcavdate = data.lastVacDate;
+    this.nextcavdate = data.nextVacDate;
   }
 
   submit(){
     const animalObj: Animal ={
+      id: this.petId,
       name : this.afname,
       type : this.ptype,
       birthDay : this.astartdate,
@@ -36,12 +56,22 @@ export class AddEditPetsComponent implements OnInit {
       lastVacDate : this.lastcavdate,
       nextVacDate : this.nextcavdate
     }
-    this.animalservice.addNewAnimal(animalObj).then( res =>{
-      console.log("success" , res);
-      
-    }).catch( error =>{
-      console.log("error" , error);
-    });
+    if(this.dialogConfigs.id == "Edit"){
+      this.animalservice.editAnimal(animalObj).then( res =>{
+        this.dialogRef.close();
+      }).catch( err =>{
+console.log(err);
+
+      })
+    }else{
+      this.animalservice.addNewAnimal(animalObj).then( res =>{
+        console.log("success" , res);
+        
+      }).catch( error =>{
+        console.log("error" , error);
+      });
+    }
+    
   }
 
  

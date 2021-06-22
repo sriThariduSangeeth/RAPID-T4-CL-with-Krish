@@ -4,7 +4,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class Animal {
 
     @PrimaryGeneratedColumn('uuid')
-    id?: number;
+    id?: string;
 
     @Column({ length: 500 , nullable: true })
     name: string;
