@@ -60,7 +60,15 @@ export class DisplayPetsComponent implements OnInit , AfterViewInit{
   }
   
   deleteVehicle(animal : Animal){
-
+    const deleteId :string = animal.id!;
+    this.animalService.deleteAnimal(deleteId).then(res =>{
+      console.log("delete",res);
+      this.getAllAnimalData();
+    }).catch( err =>{
+      console.log("not delete", err);
+      
+    })
+    
   }
 
   addNewPet(){

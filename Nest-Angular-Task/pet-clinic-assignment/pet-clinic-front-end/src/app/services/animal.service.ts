@@ -20,4 +20,11 @@ export class AnimalService {
         return this.httpClient.post<Animal>(`${this.SERVER_URL}`, animal).toPromise();
     }
     
+    public deleteAnimal(id : string){
+        return this.httpClient.delete<any>(`${this.SERVER_URL}/${id}`).toPromise();
+    }
+
+    public editAnimal(animal: Animal):Promise<Animal>{
+        return this.httpClient.put<Animal>(`${this.SERVER_URL}`, animal).toPromise();
+    }
 }
