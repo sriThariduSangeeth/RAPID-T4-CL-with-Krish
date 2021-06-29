@@ -55,3 +55,11 @@
     - [Find Fibonacci Numbers with UI](./Angular-Task/find-Fibonacci-numbers-with-ui)
        - [x] Angular 11
        - [x] TypeScript
+10. [Nest JS and Angular Tasks](./Nest-Angular-Task)
+     - [Async Concurrency Assignment](./Nest-Angular-Task/async-concurrency-assignment/)
+       - [x] Angular 11
+       - [x] NestJS
+     - [DTS Pet Clinic](./Nest-Angular-Task/pet-clinic-assignment)
+       - [x] Angular 11
+       - [x] NestJS
+       - [x] PostgreSQL
